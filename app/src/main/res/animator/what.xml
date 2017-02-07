@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <objectAnimator
+        android:duration="250"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotation"
+        android:valueFrom="0"
+        android:valueTo="360" />
+
+    <objectAnimator
+        android:duration="250"
+        android:interpolator="@android:anim/linear_interpolator">
+        <propertyValuesHolder
+            android:propertyName="translationX"
+            android:valueTo="250" />
+        <propertyValuesHolder
+            android:propertyName="translationY"
+            android:valueTo="250" />
+    </objectAnimator>
+
+    <objectAnimator
+        android:duration="110"
+        android:interpolator="@android:anim/linear_interpolator">
+        <propertyValuesHolder
+            android:propertyName="translationX"
+            android:valueTo="0" />
+        <propertyValuesHolder
+            android:propertyName="translationY"
+            android:valueTo="0" />
+    </objectAnimator>
+
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationX"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+    <objectAnimator
+        android:duration="150"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationX"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+
+
+    <objectAnimator
+        android:duration="2500"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:propertyName="scale">
+        <propertyValuesHolder
+            android:propertyName="scaleX"
+            android:valueTo="3"/>
+        <propertyValuesHolder
+            android:propertyName="scaleY"
+            android:valueTo="3"/>
+
+    </objectAnimator>
+
+    <objectAnimator
+        android:duration="1000"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="1000"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+
+    <objectAnimator
+        android:duration="750"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="750"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="500"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+
+
+    <objectAnimator
+        android:duration="250"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="250"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+
+    <objectAnimator
+        android:duration="100"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="100"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+    <objectAnimator
+        android:duration="100"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="100"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+    <objectAnimator
+        android:duration="100"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="100"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0" />
+
+
+
+    <objectAnimator
+        android:duration="50"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="0"
+        android:valueTo="90" />
+
+
+    <objectAnimator
+        android:duration="50"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:propertyName="rotationY"
+        android:valueFrom="-90"
+        android:valueTo="0"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite"/>
+
+
+</set>
